@@ -117,7 +117,7 @@ are unoptimal
 `recursive_best_first_search` took more than 30 on my machine :(
 
 | **Heuristic**                                 | **Plan length** | **Expansions** | **Goal Tests** | **New Nodes** | **Time** |
-|-----------------------------------------------greedy_best_first_graph_search|-----------------|----------------|----------------|---------------|----------|
+|-----------------------------------------------|-----------------|----------------|----------------|---------------|----------|
 | 6. `recursive_best_first_search with h_1`     | timeout         | timeout        | timeout        | timeout       | timeout  |
 | 7. `greedy_best_first_graph_search with h_1`  | 21              | 645            | 647            | 4771          | 2.67s    |
 | 8. `astar_search with h_1`                    | 9               | 4521           | 4523           | 36997         | 36.30s   |
